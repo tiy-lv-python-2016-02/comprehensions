@@ -19,7 +19,6 @@ Implement these List and Dictionary Comprehensions, each as a function:
   * Convert the Water Temps from a string to a float
   * Convert the Water Temps from Celsius to Fahrenheit rounded to an int
   * Create a dictionary with Date as the key and Wave Height as the value
-  * Create a dictionary with the average wave height for each day
   * Using the following dictionary:
   ```
 {'Gale': {'Homework 1': 88, 'Homework 2': 76},
@@ -35,6 +34,7 @@ In addition to the requirements from **Normal Mode**:
 
   * Convert each Date in normal mode (bouy.csv) to its numerical day of the week,
     then create a list of values for each day of the week
+  * Using the previous list of values make the average for each statistic per day.
   * Write a function that can take a dictionary of bouy data and return the best weekend to take a trip. Include the criteria
   as to how it chooses the best weekend.
  
